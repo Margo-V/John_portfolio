@@ -1,0 +1,23 @@
+.btn{
+        display: inline-flex;
+        background-color: #ff6464;
+        border-radius: 2px;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 20px;
+        height: 47px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: #{math.div(29, 20) * 100%};
+        color: #fff;
+        transition: background-color 0.3s ease 0s;
+        @media(min-width: 992px){
+                &:hover{
+                        background-color: #bb4949;
+                }
+        }
+        &._fw{
+                width: 100%;
+        }
+}
